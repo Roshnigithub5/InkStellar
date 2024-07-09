@@ -1,0 +1,109 @@
+#Main {
+  height: 70vh !important;
+  width: 100% !important;
+  background: url(bg.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0.5rem !important;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#Main h3 {
+  margin: 0 19rem 2rem 0 !important;
+}
+
+#Main h6 {
+  margin: 0 6rem 2rem 0 !important;
+}
+
+#Services h4 {
+  margin: 0.5rem 0 0 0 !important;
+}
+
+#Services {
+  height: min-content !important;
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#Services .cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 70%;
+  width: 100%;
+}
+
+#Services .cards .card {
+  margin-top: 1rem;
+  width: 23rem !important;
+  height: 26rem;
+  padding: 0.5rem;
+}
+
+#Services .cards .card img {
+  height: 12rem;
+  width: 22rem;
+}
+
+#Products {
+  height: min-content !important;
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#Products h4 {
+  margin-top: 1rem;
+}
+
+#Products .cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 70%;
+  width: 100%;
+}
+
+#Products .cards .card {
+  margin-top: 1rem;
+  width: 45% !important;
+  height: 17rem;
+  padding: 0.5rem;
+}
+
+#Products .cards .card .card-header {
+  font-weight: bold;
+}
+
+#Contact h4 {
+  margin-top: 1rem;
+}
+
+#Contact {
+  margin-top: 1rem;
+  height: min-content;
+  padding: 0.5rem;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
