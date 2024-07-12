@@ -25,11 +25,19 @@
 
 @media (orientation: portrait) {
   #Main h3 {
+<<<<<<< HEAD
     margin: 0 6rem 2rem 8rem;
   }
 
   #Main h6 {
     margin: 0 0 2rem 0 !important;
+=======
+    margin: 0 2rem 2rem 30% !important;
+  }
+
+  #Main h6 {
+    margin: 0 1rem 2rem 25% !important;
+>>>>>>> e2102f499b91a272c0cf6d30e292c8253e199f6c
   }
 }
 
