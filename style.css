@@ -13,12 +13,24 @@
   align-items: flex-end;
 }
 
-#Main h3 {
-  margin: 0 19rem 2rem 0 !important;
+@media (orientation: landscape) {
+  #Main h3 {
+    margin: 0 19rem 2rem 0 !important;
+  }
+
+  #Main h6 {
+    margin: 0 6rem 2rem 0 !important;
+  }
 }
 
-#Main h6 {
-  margin: 0 6rem 2rem 0 !important;
+@media (orientation: portrait) {
+  #Main h3 {
+    margin: 0 1rem 2rem 40% !important;
+  }
+
+  #Main h6 {
+    margin: 0 1rem 2rem 20% !important;
+  }
 }
 
 #Services h4 {
