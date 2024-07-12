@@ -101,7 +101,7 @@
 
   #Products .cards .card {
     margin-top: 1rem;
-    width: 45% !important;
+    width: 100% !important;
     height: min-content;
     padding: 0.5rem;
   }
