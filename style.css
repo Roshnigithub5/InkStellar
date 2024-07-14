@@ -294,3 +294,77 @@
     height: min-content;
   }
 }
+
+/* customize stationery  */
+
+#Sta_Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media (orientation: landscape) {
+  #Sta_Main .cards {
+    height: min-content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  #Sta_Main .cards .card {
+    margin: 10px;
+    width: 90%;
+    height: min-content !important;
+  }
+  #Sta_Main .cards .card img {
+    height: 14rem !important;
+  }
+  #Sta_Main .cards .card .list-group .item-1 {
+    height: min-content;
+  }
+  #Sta_Main .cards .card .list-group .item-2 {
+    height: 4rem;
+  }
+  #Sta_Main .cards .card .list-group .item-3 {
+    height: min-content;
+  }
+  #Sta_Main .cards .card .list-group .item-4 {
+    height: 2.5rem;
+  }
+}
+
+@media (orientation: portrait) {
+  #Sta_Main .cards {
+    height: min-content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+  #Sta_Main .cards .card {
+    margin: 10px;
+    width: 90%;
+    height: min-content !important;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+  #Sta_Main .cards .card .card-body {
+    padding: 0 !important;
+  }
+  #Sta_Main .cards .card img {
+    height: 14rem !important;
+  }
+  #Sta_Main .cards .card .list-group .item-1 {
+    height: min-content;
+  }
+  #Sta_Main .cards .card .list-group .item-2 {
+    height: min-content;
+  }
+  #Sta_Main .cards .card .list-group .item-3 {
+    height: min-content;
+  }
+  #Sta_Main .cards .card .list-group .item-4 {
+    height: min-content;
+  }
+}
