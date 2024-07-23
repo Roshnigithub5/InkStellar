@@ -1,6 +1,6 @@
 # InkStellar
 
-Welcome to InkStellar, your premier destination for high-quality stationery materials. This website showcases our range of premium stationery products, including notebooks, pens, custom stationery, and more. Built with a focus on aesthetics and user experience, InkStellar provides a seamless shopping experience for all stationery enthusiasts.
+Welcome to InkStellar, your premier destination for high-quality stationery materials. This website showcases our range of premium stationery products, including notebooks, pens, custom stationery, eco-friendly products, and more. Built with a focus on aesthetics and user experience, InkStellar provides a seamless shopping experience for all stationery enthusiasts.
 
 ## Table of Contents
 
