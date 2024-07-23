@@ -442,3 +442,77 @@
     height: min-content;
   }
 }
+
+/* eco-friendly products  */
+
+#Eco_Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media (orientation: landscape) {
+  #Eco_Main .cards {
+    height: min-content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  #Eco_Main .cards .card {
+    margin: 10px;
+    width: 90%;
+    height: min-content !important;
+  }
+  #Eco_Main .cards .card img {
+    height: 14rem !important;
+  }
+  #Eco_Main .cards .card .list-group .item-1 {
+    height: min-content;
+  }
+  #Eco_Main .cards .card .list-group .item-2 {
+    height: 4rem;
+  }
+  #Eco_Main .cards .card .list-group .item-3 {
+    height: min-content;
+  }
+  #Eco_Main .cards .card .list-group .item-4 {
+    height: 2.5rem;
+  }
+}
+
+@media (orientation: portrait) {
+  #Eco_Main .cards {
+    height: min-content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+  }
+  #Eco_Main .cards .card {
+    margin: 10px;
+    width: 90%;
+    height: min-content !important;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+  #Eco_Main .cards .card .card-body {
+    padding: 0 !important;
+  }
+  #Eco_Main .cards .card img {
+    height: 14rem !important;
+  }
+  #Eco_Main .cards .card .list-group .item-1 {
+    height: min-content;
+  }
+  #Eco_Main .cards .card .list-group .item-2 {
+    height: min-content;
+  }
+  #Eco_Main .cards .card .list-group .item-3 {
+    height: min-content;
+  }
+  #Eco_Main .cards .card .list-group .item-4 {
+    height: min-content;
+  }
+}
