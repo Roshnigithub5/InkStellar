@@ -2,7 +2,7 @@
 #Main {
   height: 70vh !important;
   width: 100% !important;
-  background: url(bg.avif);
+  background: url('https://res.cloudinary.com/dwrf5gfdq/image/upload/v1726340785/background_xnwjpv.avif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
